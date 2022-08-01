@@ -1,0 +1,17 @@
+Modellizzare in un file di testo come visto questa mattina,
+la struttura di una tabella per memorizzare tutti i dati riguardanti
+delle auto usate messe in vendita da un concessionario.
+
+id - BIGINT - PRIMARY_KEY (NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+brand - VARCHAR(20),NULL
+model - VARCHAR(20), NULL
+anno_immatricolazione - YEAR(YYYY), NULL
+numero_carrozzeria - VARCHAR(15), NULL
+potenza_motore - SMALLINT, NULL
+cambio - VARCHAR(15), NULL
+porte - TINYINT, NULL
+posti - TINYINT, NULL
+alimentazione - stringVARCHAR(20), NULL
+chilometraggio - MEDIUMINT, NULL
+prezzo_vendita - NOTNULLS, decimal(10,2)
+prezzo_acquisto - NOTNULL, decimal(10,2)
